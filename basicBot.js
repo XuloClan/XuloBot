@@ -238,9 +238,9 @@
     var basicBot = {
         version: "2.8.17",
         status: false,
-        name: "XuloBot",
+        name: "basicBot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/XuloClan/XuloBot/master/basicBot.js",
+        scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
         chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
         chat: null,
@@ -248,10 +248,10 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "XuloBot",
+            botName: "basicBot",
             language: "english",
             chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
-            scriptLink: "https://rawgit.com/XuloClan/XuloBot/master/basicBot.js",
+            scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
@@ -294,16 +294,16 @@
             afkRankCheck: "ambassador",
             motdEnabled: false,
             motdInterval: 5,
-            motd: "Welcome to Xulo Clan's Plug.DJ",
+            motd: "Temporary Message of the Day",
             filterChat: true,
             etaRestriction: false,
             welcome: true,
             opLink: null,
             rulesLink: null,
             themeLink: null,
-            fbLink: www.facebook.com/xuloclan,
-            youtubeLink: https://www.youtube.com/channel/UCyXfKEbWWKQXwwQywv20KxQ,
-            website: www.xuloclan.com,
+            fbLink: null,
+            youtubeLink: null,
+            website: null,
             intervalMessages: [],
             messageInterval: 5,
             songstats: true,
@@ -315,7 +315,7 @@
             }
         },
         room: {
-            name: Xulo Clan,
+            name: null,
             chatMessages: [],
             users: [],
             afkList: [],
